@@ -45,6 +45,7 @@ Link to live project : https://mov-shohan.herokuapp.com/
 -   Users can for find the most popular movies on the home page.
 -   Users can search for various movies and look through its details like cast, rating, release date etc and also watch it's trailer directly.
 -   User will get recommendations based on the current movie they have searched for using content based filtering.
+-   The site is responsive and so can be used in mobile devices.
 
 ---
 
