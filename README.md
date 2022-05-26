@@ -25,16 +25,17 @@ Link to live project : https://mov-shohan.herokuapp.com/
     $ npm install
     ```
 5. Go to the package.json file and change the proxy to your flask server local port which is most likely localhost:5000
-6. Then start the project by
-    ```shell
-    $ npm start
-    ```
-7. **If this doesn't work** build the project
+6. Then build the project by
     ```shell
     $ npm run build
     ```
-    And go to local port of flask app
+7. To the local flask server to start the project
     > localhost :portNumber
+9. **If this doesn't work** use 
+    ```shell
+    $ npm start
+    ```
+   
 
 ---
 
