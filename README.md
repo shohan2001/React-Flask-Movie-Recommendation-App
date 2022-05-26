@@ -31,6 +31,7 @@ Link to live project : https://mov-shohan.herokuapp.com/
     ```
 7. To the local flask server to start the project
     > localhost :portNumber
+    
 9. **If this doesn't work** use 
     ```shell
     $ npm start
