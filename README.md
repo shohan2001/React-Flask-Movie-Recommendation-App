@@ -9,7 +9,7 @@
 4. The web-app also allows user to get top movies filtered by genre (these are also fetched using an TMDB api) . 
 5. The web app is responsive and can be used on mobile devies.
 
-Video Demo : https://www.youtube.com/
+Video Demo : https://www.youtube.com/     
 Link to live project : https://mov-shohan.herokuapp.com/    
 
 ![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg) ![Website shields.io](https://img.shields.io/badge/website-up-yellow)
