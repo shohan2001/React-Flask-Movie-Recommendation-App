@@ -30,7 +30,7 @@ const SearchResult = () => {
     const gotVideo = (data) => {
         if (data.videos && data.videos.results) {
             const trailer = data.videos.results.find(
-                (vid) => vid.name === "Trailer"
+                (vid) => vid.name === "Official Trailer"
             );
 
             setVideoData(trailer ? trailer : data.videos.results[0]);
