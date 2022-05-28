@@ -9,7 +9,7 @@
 4. The web-app also allows user to get top movies filtered by genre (these are also fetched using an TMDB api) . 
 5. The web app is responsive and can be used on mobile devies.
 
-Video Demo : https://www.youtube.com/     
+Video Demo : https://www.youtube.com/ 
 Link to live project : https://mov-shohan.herokuapp.com/    
 
 ![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg) ![Website shields.io](https://img.shields.io/badge/website-up-yellow)
@@ -56,6 +56,12 @@ Link to live project : https://mov-shohan.herokuapp.com/
 
 ---
 ## Algorithm For Recommendation
+The Recommendations are made by computing similarity scores for movies using consine simarity. For each movie tags are created by combining various details like genre of the movie, title, top cast, director and then they are converted to vectors using which similarity matrix is formed. Then for any searched movie the movies with the largest similarity score with it are sorted and then recommended.
+### Cosine Similarity 
+![image](https://user-images.githubusercontent.com/74367889/170820479-843243b2-3659-4101-8adf-2e5c7cdbcc19.png)
+
+
+
  ---
  ## References 
  1. TMDB's API : https://www.themoviedb.org/documentation/api
