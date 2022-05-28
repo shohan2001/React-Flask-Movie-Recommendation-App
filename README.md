@@ -1,21 +1,29 @@
+
 # React.js + Flask Movie Recommendation System
+![Python](https://img.shields.io/badge/Python-3.9.6-blueviolet)     ![Framework](https://img.shields.io/badge/Framework-Flask-red) ![Frontend](https://img.shields.io/badge/Frontend-React-green) ![API](https://img.shields.io/badge/API-TMDB-fcba03)
 
-![Python](https://img.shields.io/badge/Python-3.9.6-blueviolet) ![Framework](https://img.shields.io/badge/Framework-Flask-red) ![Frontend](https://img.shields.io/badge/Frontend-React-green) ![API](https://img.shields.io/badge/API-TMDB-fcba03)
+## Overview  📋
+1. The web app is built using React.js for the front-end and python's  flask for the back-end.
+2. It enable user to search and go through various details (like cast, genre, trailer, etc) 5000+ movies (all these details are fetched using an API by TMDB) .
+3. Based on the searched movie users are recommended movie which are fetched for the python-flask backend that uses local dataset and content-based filtering algorithm for recommendation.
+4. The web-app also allows user to get top movies filtered by genre (these are also fetched using an TMDB api) . 
+5. The web app is responsive and can be used on mobile devies.
 
-Link to live project : https://mov-shohan.herokuapp.com/
+Video Demo : https://www.youtube.com/
+Link to live project : https://mov-shohan.herokuapp.com/    
 
 ![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg) ![Website shields.io](https://img.shields.io/badge/website-up-yellow)
 
----
+
+----
 
 ## Installation 📦
-
 1. Clone or download this repository to your local machine.
-2. Install all the libraries mentioned in the [requirements.txt]
+2.  Install all the libraries mentioned in the [requirements.txt] 
     ```shell
     $ pip install -r requirements.txt
     ```
-3. Then run the flask server by
+ 3. Then run the flask server by 
     ```shell
     $ python app.py
     ```
@@ -36,23 +44,19 @@ Link to live project : https://mov-shohan.herokuapp.com/
     ```shell
     $ npm start
     ```
+     
    
 
----
-
-## Features 📋
-
--   Users can for find the most popular movies on the home page.
--   Users can search for various movies and look through its details like cast, rating, release date etc and also watch it's trailer directly.
--   User will get recommendations based on the current movie they have searched for using content based filtering.
--   The site is responsive and so can be used in mobile devices.
 
 ---
-
 ## Architecture :page_facing_up:
+
 
 ![image](https://user-images.githubusercontent.com/74367889/170507933-fabe5dcc-52a0-476f-8650-c454a433bc48.png)
 
 ---
-
-## Algorithm
+## Algorithm For Recommendation
+ ---
+ ## References 
+ 1. TMDB's API : https://www.themoviedb.org/documentation/api
+ 2. Cosine Similarity : https://www.machinelearningplus.com/nlp/cosine-similarity/
