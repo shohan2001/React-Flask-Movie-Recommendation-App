@@ -7,9 +7,7 @@
 2. It enable user to search and go through various details (like cast, genre, trailer, etc) 5000+ movies (all these details are fetched using an API by TMDB) .
 3. Based on the searched movie users are recommended movie which are fetched for the python-flask backend that uses local dataset and content-based filtering algorithm for recommendation.
 4. The web-app also allows user to get top movies filtered by genre (these are also fetched using an TMDB api) . 
-5. The web app is responsive and can be used on mobile devies.
-
-Link to live project : https://mov-shohan.herokuapp.com/    
+5. The web app is responsive and can be used on mobile devies.  
 
 ![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg) ![Website shields.io](https://img.shields.io/badge/website-up-yellow)
 
